@@ -44,7 +44,7 @@ public class BookingController {
 		if(temp.getSupervisorId().equals(supervisorId))
 		{
 			if(!(bserv.checkByBookingDate(date) &&bserv.checkBySupervisorId(supervisorId))) {
-			var b1=new Booking(supervisorId,date);
+			Booking b1=new Booking(supervisorId,date);
 			bserv.addEntry(b1);
 			return "Hall has been Booked Successfully for Supervisor Id "+supervisorId+" On the date "+date+" with BookingNo: "+b1.getBookingNo();
 			}
