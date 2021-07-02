@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eurekaapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eurekaapp
+  template:
+    metadata:
+      labels:
+        app: eurekaapp
+    spec:
+      containers:
+      - name: eurekaapp-app
+        # Replace $GCLOUD_PROJECT with your project ID
+        image: gcr.io/$GCLOUD_PROJECT/eurekaapp:latest
+        # This app listens on port 8080 for web traffic by default.
+        ports:
+        - containerPort: 8080
+        env:
+          - name: PORT
+            value: "8080"

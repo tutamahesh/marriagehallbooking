@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: eurekaapp
+spec:
+  type: LoadBalancer
+  selector:
+    app: eurekaapp
+  ports:
+  - port: 80
+    targetPort: 8080
