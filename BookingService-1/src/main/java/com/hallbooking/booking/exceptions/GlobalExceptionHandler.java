@@ -11,7 +11,7 @@ public class GlobalExceptionHandler {
 	@ExceptionHandler(IDNotFoundException.class)
 	public ResponseEntity<CustomErrorResponse> exceptionHandler(IDNotFoundException idn)
 	{
-		var resp=new CustomErrorResponse("ID Not Found",idn.getMessage(), HttpStatus.NOT_FOUND.value());
+		CustomErrorResponse resp=new CustomErrorResponse("ID Not Found",idn.getMessage(), HttpStatus.NOT_FOUND.value());
 		return new ResponseEntity<>(resp,HttpStatus.NOT_FOUND);
 	}
 }
