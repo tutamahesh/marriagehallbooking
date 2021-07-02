@@ -1,0 +1,214 @@
+2021-07-01 01:39:36.511  INFO 12456 --- [main] c.h.a.AdminVendorSerivcesApplication     : Starting AdminVendorSerivcesApplication using Java 15.0.2 on DANNY with PID 12456 (C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces\target\classes started by pldur in C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces)
+2021-07-01 01:39:36.518  INFO 12456 --- [main] c.h.a.AdminVendorSerivcesApplication     : No active profile set, falling back to default profiles: default
+2021-07-01 01:39:39.102  INFO 12456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-01 01:39:40.137  INFO 12456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interfaces.
+2021-07-01 01:39:40.493  INFO 12456 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d783b73-1d1b-3d24-9b16-384b523df0d4
+2021-07-01 01:39:40.693  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.694  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.696  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.700  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.702  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.705  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.706  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.720  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.723  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:40.724  INFO 12456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 01:39:41.142  INFO 12456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-07-01 01:39:41.153  INFO 12456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-01 01:39:41.154  INFO 12456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-01 01:39:41.316  INFO 12456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-01 01:39:41.316  INFO 12456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4750 ms
+2021-07-01 01:39:41.645  INFO 12456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-01 01:39:41.693  INFO 12456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-07-01 01:39:41.828  INFO 12456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-01 01:39:41.942  INFO 12456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-01 01:39:42.718  INFO 12456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-01 01:39:42.749  INFO 12456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-07-01 01:39:45.778  INFO 12456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-01 01:39:45.791  INFO 12456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-01 01:39:46.592  WARN 12456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-01 01:39:47.242  INFO 12456 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2021-07-01 01:39:48.350  INFO 12456 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-07-01 01:39:48.461  WARN 12456 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-01 01:39:48.608  INFO 12456 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-07-01 01:39:48.661  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-07-01 01:39:48.666  INFO 12456 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 01:39:48.707  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-07-01 01:39:48.707  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-07-01 01:39:48.708  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-07-01 01:39:48.708  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-07-01 01:39:48.708  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-07-01 01:39:48.708  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-07-01 01:39:48.709  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-07-01 01:39:49.075  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-07-01 01:39:49.081  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-07-01 01:39:49.089  INFO 12456 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-01 01:39:49.105  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1625083789104 with initial instances count: 1
+2021-07-01 01:39:49.109  INFO 12456 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-VENDOR with eureka with status UP
+2021-07-01 01:39:49.110  INFO 12456 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1625083789110, current=UP, previous=STARTING]
+2021-07-01 01:39:49.111  INFO 12456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089: registering service...
+2021-07-01 01:39:49.137  INFO 12456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-07-01 01:39:49.137  INFO 12456 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8089
+2021-07-01 01:39:49.154  INFO 12456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089 - registration status: 204
+2021-07-01 01:39:49.546  INFO 12456 --- [main] c.h.a.AdminVendorSerivcesApplication     : Started AdminVendorSerivcesApplication in 13.783 seconds (JVM running for 14.659)
+2021-07-01 01:39:49.554  INFO 12456 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-07-01 01:39:49.557  INFO 12456 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-07-01 01:39:49.635  INFO 12456 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-01 01:39:49.635  INFO 12456 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-01 01:39:49.637  INFO 12456 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-07-01 01:41:38.590  INFO 12456 --- [http-nio-8089-exec-1] c.h.admin.controller.VendorController    : Vendor Returned By City
+2021-07-01 01:44:48.726  INFO 12456 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 01:48:44.486  INFO 12456 --- [http-nio-8089-exec-2] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:48:44.516  INFO 12456 --- [http-nio-8089-exec-3] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:48:44.524  INFO 12456 --- [http-nio-8089-exec-4] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:48:44.530  INFO 12456 --- [http-nio-8089-exec-5] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:49:48.547  INFO 12456 --- [http-nio-8089-exec-6] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:49:48.554  INFO 12456 --- [http-nio-8089-exec-7] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:49:48.636  INFO 12456 --- [http-nio-8089-exec-8] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:49:48.644  INFO 12456 --- [http-nio-8089-exec-9] c.h.admin.controller.VendorController    : Vendor Returned By Id
+2021-07-01 01:49:48.743  INFO 12456 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 01:54:48.756  INFO 12456 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:31:38.441  INFO 20016 --- [main] c.h.a.AdminVendorSerivcesApplication     : Starting AdminVendorSerivcesApplication using Java 15.0.2 on DANNY with PID 20016 (C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces\target\classes started by pldur in C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces)
+2021-07-01 14:31:38.444  INFO 20016 --- [main] c.h.a.AdminVendorSerivcesApplication     : No active profile set, falling back to default profiles: default
+2021-07-01 14:31:40.062  INFO 20016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-01 14:31:40.265  INFO 20016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 1 JPA repository interfaces.
+2021-07-01 14:31:40.679  INFO 20016 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d783b73-1d1b-3d24-9b16-384b523df0d4
+2021-07-01 14:31:40.894  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.895  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.897  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.902  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.905  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.908  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.909  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.927  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.931  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:40.933  INFO 20016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 14:31:41.454  INFO 20016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-07-01 14:31:41.523  INFO 20016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-01 14:31:41.523  INFO 20016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-01 14:31:41.715  INFO 20016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-01 14:31:41.715  INFO 20016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3218 ms
+2021-07-01 14:31:42.115  INFO 20016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-01 14:31:42.228  INFO 20016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-07-01 14:31:42.510  INFO 20016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-01 14:31:42.722  INFO 20016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-01 14:31:42.964  INFO 20016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-01 14:31:43.022  INFO 20016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-07-01 14:31:44.604  INFO 20016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-01 14:31:44.615  INFO 20016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-01 14:31:45.506  WARN 20016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-01 14:31:46.266  INFO 20016 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2021-07-01 14:31:47.669  INFO 20016 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-01 14:31:47.670  INFO 20016 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-01 14:31:47.680  INFO 20016 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-07-01 14:31:47.923  INFO 20016 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-07-01 14:31:48.039  WARN 20016 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-01 14:31:48.207  INFO 20016 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-07-01 14:31:48.315  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-07-01 14:31:48.328  INFO 20016 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-07-01 14:31:48.371  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-07-01 14:31:48.372  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-07-01 14:31:48.751  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-07-01 14:31:48.759  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-07-01 14:31:48.766  INFO 20016 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-01 14:31:48.779  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1625130108779 with initial instances count: 2
+2021-07-01 14:31:48.783  INFO 20016 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-VENDOR with eureka with status UP
+2021-07-01 14:31:48.784  INFO 20016 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1625130108784, current=UP, previous=STARTING]
+2021-07-01 14:31:48.786  INFO 20016 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089: registering service...
+2021-07-01 14:31:48.813  INFO 20016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-07-01 14:31:48.813  INFO 20016 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8089
+2021-07-01 14:31:49.156  INFO 20016 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089 - registration status: 204
+2021-07-01 14:31:49.218  INFO 20016 --- [main] c.h.a.AdminVendorSerivcesApplication     : Started AdminVendorSerivcesApplication in 11.397 seconds (JVM running for 12.389)
+2021-07-01 14:31:49.228  INFO 20016 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-07-01 14:31:49.231  INFO 20016 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-07-01 14:36:48.387  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:41:48.391  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:46:48.404  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:51:48.413  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 14:56:48.417  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:01:48.418  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:06:48.427  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:17:46.482  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:18:11.796  WARN 20016 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m26s896ms793µs300ns).
+2021-07-01 15:22:46.490  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:27:46.504  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:32:46.516  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:37:46.525  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:42:46.543  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:47:46.549  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 15:52:46.551  INFO 20016 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 16:01:48.515  WARN 20016 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m6s265ms462µs200ns).
+2021-07-01 16:43:01.002  INFO 16396 --- [main] c.h.a.AdminVendorSerivcesApplication     : Starting AdminVendorSerivcesApplication using Java 15.0.2 on DANNY with PID 16396 (C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces\target\classes started by pldur in C:\Users\pldur\Desktop\apache-tomcat-9.0.46\MyProject\adminVendorSerivces)
+2021-07-01 16:43:01.008  INFO 16396 --- [main] c.h.a.AdminVendorSerivcesApplication     : No active profile set, falling back to default profiles: default
+2021-07-01 16:43:03.861  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-01 16:43:04.169  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 291 ms. Found 1 JPA repository interfaces.
+2021-07-01 16:43:04.853  INFO 16396 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d783b73-1d1b-3d24-9b16-384b523df0d4
+2021-07-01 16:43:05.232  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.234  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.238  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.243  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.248  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.252  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.254  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.282  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.289  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.290  INFO 16396 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-01 16:43:05.851  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-07-01 16:43:05.872  INFO 16396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-01 16:43:05.873  INFO 16396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-01 16:43:06.200  INFO 16396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-01 16:43:06.200  INFO 16396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5105 ms
+2021-07-01 16:43:06.831  INFO 16396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-01 16:43:06.940  INFO 16396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-07-01 16:43:07.206  INFO 16396 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-01 16:43:07.439  INFO 16396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-01 16:43:07.838  INFO 16396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-01 16:43:07.914  INFO 16396 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-07-01 16:43:10.811  INFO 16396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-01 16:43:10.829  INFO 16396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-01 16:43:12.298  WARN 16396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-01 16:43:13.545  INFO 16396 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2021-07-01 16:43:15.216  INFO 16396 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-01 16:43:15.217  INFO 16396 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-01 16:43:15.337  INFO 16396 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 119 ms
+2021-07-01 16:43:15.709  INFO 16396 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-07-01 16:43:15.892  WARN 16396 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-07-01 16:43:16.185  INFO 16396 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-07-01 16:43:16.300  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-07-01 16:43:16.311  INFO 16396 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 16:43:16.372  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-07-01 16:43:16.373  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-07-01 16:43:16.373  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-07-01 16:43:16.374  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-07-01 16:43:16.374  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-07-01 16:43:16.374  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-07-01 16:43:16.375  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-07-01 16:43:17.071  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-07-01 16:43:17.088  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-07-01 16:43:17.117  INFO 16396 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-01 16:43:17.150  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1625137997147 with initial instances count: 1
+2021-07-01 16:43:17.162  INFO 16396 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-VENDOR with eureka with status UP
+2021-07-01 16:43:17.163  INFO 16396 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1625137997163, current=UP, previous=STARTING]
+2021-07-01 16:43:17.167  INFO 16396 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089: registering service...
+2021-07-01 16:43:17.229  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-07-01 16:43:17.232  INFO 16396 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8089
+2021-07-01 16:43:17.240  INFO 16396 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-VENDOR/DANNY:admin-vendor:8089 - registration status: 204
+2021-07-01 16:43:18.051  INFO 16396 --- [main] c.h.a.AdminVendorSerivcesApplication     : Started AdminVendorSerivcesApplication in 18.127 seconds (JVM running for 20.273)
+2021-07-01 16:43:18.072  INFO 16396 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-07-01 16:43:18.079  INFO 16396 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-07-01 16:48:16.381  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 16:53:16.398  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 16:58:16.400  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:03:16.404  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:08:16.416  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:13:16.432  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:18:16.438  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:23:16.447  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:28:16.449  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:33:16.455  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-07-01 17:38:16.464  INFO 16396 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
